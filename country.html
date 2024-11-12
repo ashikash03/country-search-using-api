@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Form</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <form onsubmit="fetchData(); return false;">
+      <input type="text" placeholder="Enter Country Name" id="countryName" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="card-container">
+    <div class="card" id="country_card1" style="display: none;"></div>
+    <div class="card" id="country_card2" style="display: none;"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
